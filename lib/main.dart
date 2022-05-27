@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutterproject/home/table.dart';
 import 'package:flutterproject/login.dart';
+import 'package:flutterproject/task2/task2_file1.dart';
+import 'package:flutterproject/task2/task2_file2.dart';
 
 import 'home/Set.dart';
 import 'home/detail.dart';
@@ -17,7 +19,7 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
    initialRoute: 'signin',
-   routes: {'signin': (context) =>  Set1()},
+   routes: {'signin': (context) =>  VerificationCode()},
 
   ));
 }
